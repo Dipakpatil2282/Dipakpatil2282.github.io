@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dipak Patil — Data Analyst, Data Engineer and Machine Learning portfolio." />
+  <title>Dipak Patil | Data Analyst • Data Engineer • ML</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="progress"></div>
+
+  <header class="nav">
+    <a class="brand" href="#home"><span>DP</span> Dipak Patil</a>
+    <nav id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">☀</button>
+      <button id="menuToggle" class="menu-btn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">AVAILABLE FOR OPPORTUNITIES</p>
+        <h1>Data that tells a story.<br><span>Solutions that create impact.</span></h1>
+        <p class="hero-role">Data Analyst <b>•</b> Data Engineer <b>•</b> Machine Learning</p>
+        <p class="hero-text">
+          I build practical data solutions using Python, SQL, Big Data technologies,
+          Machine Learning and Power BI — from data pipelines to insights and intelligent applications.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#projects">Explore My Work <span>↗</span></a>
+          <a class="btn secondary" href="assets/Dipak_Patil_Resume.pdf" download>Download Resume ↓</a>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/Dipakpatil2282" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/dipak-patil-693aa5291" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="mailto:dipakpatil20001@gmail.com">Email ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orb"></div>
+        <div class="data-card card-one"><span>PYTHON</span><strong>01</strong></div>
+        <div class="data-card card-two"><span>SQL</span><strong>02</strong></div>
+        <div class="data-card card-three"><span>PYSPARK</span><strong>03</strong></div>
+        <div class="terminal">
+          <div class="terminal-top"><i></i><i></i><i></i><span>dipak@portfolio:~</span></div>
+          <div class="terminal-body">
+            <p><em>$</em> whoami</p>
+            <p class="accent">dipak.patil</p>
+            <p><em>$</em> focus --current</p>
+            <p>Data Analytics / Engineering / ML</p>
+            <p><em>$</em> status</p>
+            <p class="success">● Open to opportunities</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 — ABOUT</p>
+        <h2>Turning learning into <span>real-world work.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p>
+            I am Dipak Patil, a Computer Science graduate and PGCP-DBDA professional from
+            C-DAC ACTS, Pune. My interests lie at the intersection of Data Analytics,
+            Data Engineering and Machine Learning.
+          </p>
+          <p>
+            During my academic and project journey, I worked with Python, SQL, PySpark,
+            Hadoop, Hive, Kafka, Airflow, Power BI and Machine Learning tools. I enjoy
+            transforming raw data into reliable pipelines, useful insights and practical
+            solutions.
+          </p>
+          <p>
+            I am continuously strengthening my technical skills and looking for an
+            opportunity where I can learn from experienced professionals, take ownership
+            of challenging work and contribute meaningful results.
+          </p>
+        </div>
+        <div class="stats reveal">
+          <div><strong>3+</strong><span>Major Projects</span></div>
+          <div><strong>10+</strong><span>Data Technologies</span></div>
+          <div><strong>∞</strong><span>Curiosity to Learn</span></div>
+          <div><strong>1</strong><span>Goal: Create Impact</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 — SKILLS</p>
+        <h2>A toolkit built for <span>data.</span></h2>
+      </div>
+      <div class="skill-tabs reveal" role="tablist">
+        <button class="skill-tab active" data-skill="all">All</button>
+        <button class="skill-tab" data-skill="programming">Programming</button>
+        <button class="skill-tab" data-skill="data">Data</button>
+        <button class="skill-tab" data-skill="bigdata">Big Data</button>
+        <button class="skill-tab" data-skill="ml">ML</button>
+        <button class="skill-tab" data-skill="cloud">Cloud & Tools</button>
+      </div>
+      <div class="skills-grid" id="skillsGrid">
+        <div class="skill-card" data-category="programming"><span>01</span><h3>Python</h3><p>Data processing, automation and ML workflows.</p><div class="skill-meter"><i style="--level:88%"></i></div></div>
+        <div class="skill-card" data-category="data"><span>02</span><h3>SQL</h3><p>Querying, transformation, analysis and data modeling.</p><div class="skill-meter"><i style="--level:86%"></i></div></div>
+        <div class="skill-card" data-category="data"><span>03</span><h3>Power BI</h3><p>Interactive dashboards, KPIs and business insights.</p><div class="skill-meter"><i style="--level:78%"></i></div></div>
+        <div class="skill-card" data-category="bigdata"><span>04</span><h3>PySpark / Spark</h3><p>Distributed data processing and transformation.</p><div class="skill-meter"><i style="--level:82%"></i></div></div>
+        <div class="skill-card" data-category="bigdata"><span>05</span><h3>Hadoop / Hive</h3><p>HDFS-based storage and large-scale analytics.</p><div class="skill-meter"><i style="--level:76%"></i></div></div>
+        <div class="skill-card" data-category="bigdata"><span>06</span><h3>Kafka / Airflow</h3><p>Streaming concepts and data pipeline orchestration.</p><div class="skill-meter"><i style="--level:72%"></i></div></div>
+        <div class="skill-card" data-category="ml"><span>07</span><h3>Machine Learning</h3><p>Scikit-learn, Random Forest, XGBoost and LightGBM.</p><div class="skill-meter"><i style="--level:80%"></i></div></div>
+        <div class="skill-card" data-category="data"><span>08</span><h3>Pandas / NumPy</h3><p>Cleaning, exploration, feature preparation and analysis.</p><div class="skill-meter"><i style="--level:84%"></i></div></div>
+        <div class="skill-card" data-category="cloud"><span>09</span><h3>AWS / Databricks</h3><p>Cloud data workflows and distributed analytics exposure.</p><div class="skill-meter"><i style="--level:68%"></i></div></div>
+        <div class="skill-card" data-category="cloud"><span>10</span><h3>Git / GitHub</h3><p>Version control and collaborative project workflows.</p><div class="skill-meter"><i style="--level:82%"></i></div></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 — PROJECTS</p>
+        <h2>Selected work & <span>experiments.</span></h2>
+      </div>
+      <div class="project-filters reveal">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="data">Data</button>
+        <button class="filter" data-filter="ml">Machine Learning</button>
+        <button class="filter" data-filter="bigdata">Big Data</button>
+        <button class="filter" data-filter="web">Web / AI</button>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card featured reveal" data-type="bigdata data ml">
+          <div class="project-top"><span>01 / FEATURED</span><span>BIG DATA • ML</span></div>
+          <h3>Retail Intelligence Platform</h3>
+          <p>
+            An end-to-end retail analytics platform designed to process large-scale sales
+            data, build a reliable data pipeline and generate business insights and ML-based predictions.
+          </p>
+          <div class="project-stack"><span>PySpark</span><span>Kafka</span><span>AWS S3</span><span>HDFS</span><span>Airflow</span><span>Streamlit</span></div>
+          <div class="project-points">
+            <p>→ Bronze–Silver–Gold pipeline architecture</p>
+            <p>→ Batch + streaming data processing concepts</p>
+            <p>→ ML layer for predictive retail use cases</p>
+          </div>
+          <div class="project-links"><a href="https://github.com/Dipakpatil2282" target="_blank">GitHub ↗</a><span>Data Engineering</span></div>
+        </article>
+
+        <article class="project-card reveal" data-type="web ml">
+          <div class="project-top"><span>02</span><span>AI • WEB</span></div>
+          <h3>SmartHire</h3>
+          <p>
+            An AI-based interview platform designed to simulate interviews, manage sessions
+            and provide personalized feedback to candidates.
+          </p>
+          <div class="project-stack"><span>React.js</span><span>TypeScript</span><span>Supabase</span><span>PostgreSQL</span></div>
+          <div class="project-points">
+            <p>→ AI-powered interview experience</p>
+            <p>→ Authentication and session management</p>
+            <p>→ Candidate feedback workflow</p>
+          </div>
+          <div class="project-links"><a href="https://github.com/Dipakpatil2282" target="_blank">GitHub ↗</a><span>AI Application</span></div>
+        </article>
+
+        <article class="project-card reveal" data-type="data">
+          <div class="project-top"><span>03</span><span>ANALYTICS</span></div>
+          <h3>HR Analytics Dashboard</h3>
+          <p>
+            A dashboard-focused analytics project for turning employee data into clear
+            workforce insights, KPIs and decision-support visuals.
+          </p>
+          <div class="project-stack"><span>Python</span><span>SQL</span><span>Power BI</span><span>Data Analysis</span></div>
+          <div class="project-points">
+            <p>→ KPI-driven HR reporting</p>
+            <p>→ Interactive business visuals</p>
+            <p>→ Data cleaning and analysis workflow</p>
+          </div>
+          <div class="project-links"><a href="https://github.com/Dipakpatil2282" target="_blank">GitHub ↗</a><span>Business Intelligence</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 — EDUCATION</p>
+        <h2>Learning with a <span>practical mindset.</span></h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div><span>PGCP-BDA</span><h3>C-DAC ACTS, Pune</h3><p>Post Graduate Certificate Programme in Big Data Analytics — 83.2%</p></div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div><span>B.Tech — Computer Science & Engineering</span><h3>R. C. Patel Institute of Technology</h3><p>Computer Science and Engineering — 69.6%</p></div>
+        </div>
+      </div>
+      <div class="certs reveal">
+        <div><span>01</span><h3>AWS Academy</h3><p>Introduction to Cloud & Cloud Operations</p></div>
+        <div><span>02</span><h3>AI Tools Workshop</h3><p>ChatGPT & AI Tools — be10x</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-card reveal">
+        <div>
+          <p class="eyebrow">05 — CONTACT</p>
+          <h2>Let's build something<br><span>useful with data.</span></h2>
+          <p>I'm open to entry-level opportunities in Data Analytics, Data Engineering, Machine Learning and related roles.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:dipakpatil20001@gmail.com?subject=Opportunity%20for%20Dipak%20Patil">Email Me ↗</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/dipak-patil-693aa5291" target="_blank" rel="noreferrer">Connect on LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Dipak Patil</span>
+    <span>Built with HTML • CSS • JavaScript</span>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <div id="toast" class="toast">Resume is ready to download.</div>
+  <script src="script.js"></script>
+</body>
+</html>
